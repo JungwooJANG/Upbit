@@ -1,7 +1,7 @@
 import pyupbit
 
-access = "ot8vi4MoyFMQXx8f6loUp0ZpQyrrKqEuaNp4xTWk"          # 본인 값으로 변경
-secret = "Wmft8TWOHnirrADScw84VsYzBBjWQPb7ww8LqBIl"          # 본인 값으로 변경
+access = ""          # 본인 값으로 변경
+secret = ""          # 본인 값으로 변경
 upbit = pyupbit.Upbit(access, secret)
 
 print(upbit.get_balance("KRW-XRP"))     # KRW-XRP 조회
